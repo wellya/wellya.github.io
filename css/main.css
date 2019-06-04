@@ -1295,6 +1295,10 @@ body {
     .container-b {
       padding: 0 40px; } }
 
+section {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
 .container {
   max-width: 1090px; }
 
@@ -1978,7 +1982,7 @@ body {
     outline: none; }
     .work__sl-item .maxCn {
       max-width: 570px;
-      margin: 0 auto 30px auto;
+      margin: 0 auto 0 auto;
       padding: 0 60px 0 60px; }
       @media (max-width: 768px) {
         .work__sl-item .maxCn {
@@ -1999,7 +2003,7 @@ body {
       line-height: 20px;
       margin: 0;
       max-width: 421px;
-      min-height: 80px;
+      min-height: 105px;
       display: block; }
   .work .slick-arrow {
     position: absolute;
@@ -2540,6 +2544,9 @@ body {
   right: 0;
   z-index: 55;
   background-color: #000; }
+
+.mCSB_scrollTools {
+  z-index: 5; }
 
 .mCSB_inside > .mCSB_container {
   margin-right: 0; }
