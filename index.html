@@ -18,7 +18,8 @@
 
 	<meta name="theme-color" content="#000">
 
-	<link rel="stylesheet" href="css/main.css">	
+	<link rel="stylesheet" href="./css/main.css">	
+	<link rel="stylesheet" href="./css/particles.css">	
 
 </head>
 
@@ -38,8 +39,10 @@
 	</div>
 
 	<div class="main">
-
-		<section id="mainSc" class="onScrollSc mainSc">
+    
+        <!-- particles.js container -->
+        <section id="mainSc" class="onScrollSc mainSc">
+            <div id="particles-js"></div>
 			<div class="container">
 				<div class="mainSc__row">
 					<div class="mainSc__content">
@@ -352,8 +355,16 @@
 	</div>
 
 
-	<script src="js/scripts.min.js"></script>
-	<script src="js/common.js"></script>
+	<script src="./js/scripts.min.js"></script>
+	
+	<!--<script defer src="./libs/jquery/jquery.min.js"></script>
+	<script defer src="./libs/jquery/jquery-migrate-1.2.1.min.js"></script>
+	<script defer src="./libs/CustomScrollbar/CustomScrollbar.js"></script>
+	<script defer src="./libs/slick/slick.js"></script>
+	<script src="./libs/vanta-master/three.r92.min.js"></script>
+	<script src="./libs/vanta-master/vanta.net.min.js"></script>-->
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+	<script defer src="./js/common.js"></script>
 
 </body>
 </html>
